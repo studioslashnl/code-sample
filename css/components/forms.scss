@@ -1,0 +1,97 @@
+// Copyright: Joris W. van Rijn (2023). This code serves as a demonstrations of skills.
+// This code may not be used or distributed for any purpose.
+
+// Custom styles for Formidable plugin
+// ID's from Formidable settings, see https://studioslash.nl/wp-admin/admin.php?page=formidable
+
+#form_terugbelverzoek {
+  .frm_primary_label {
+    color: white;
+    text-align: left;
+  }
+
+  .frm_fields_container {
+    @apply !flex !gap-5 !flex-col md:!flex-row;
+  }
+
+  .frm_form_field {
+    @apply flex flex-col gap-2 font-display;
+
+    input {
+      @apply px-3 py-2 rounded text-black shadow font-body bg-white rounded-xl;
+      /* background-color: #a391f4; */
+      width: 14rem;
+
+      &::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #c1b4ff;
+        opacity: 1; /* Firefox */
+      }
+    }
+  }
+
+  .frm_submit {
+    @apply flex items-end;
+  }
+
+  .frm_button_submit {
+    /* bel mij terug! */
+    @apply inline-flex items-center gap-2 px-5 py-3 text-sm text-white text-purple-400 rounded-full cursor-pointer font-display bg-white hover:scale-105 transition;
+  }
+
+  .frm_error {
+    @apply text-xs font-body text-left font-light text-white;
+  }
+}
+
+#form_contact,
+#form_websitecanvas {
+  .frm_primary_label {
+    color: purple-400;
+    text-align: left;
+  }
+
+  .frm_form_field {
+    @apply flex flex-col gap-2 font-display;
+
+    input {
+      @apply px-3 py-5 rounded text-black shadow font-body bg-white rounded-xl text-lg;
+      border-color: #e3e4e6 !important;
+      /* background-color: #a391f4; */
+
+      &::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
+        @apply text-slate-200;
+        opacity: 1; /* Firefox */
+      }
+    }
+
+    textarea {
+      @apply rounded-xl text-lg px-3 py-2 shadow;
+      border-color: #e3e4e6 !important;
+
+      &::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
+        @apply text-slate-200;
+        opacity: 1; /* Firefox */
+      }
+    }
+
+    .frm_error {
+      color: #b94a48;
+    }
+  }
+
+  .frm_submit {
+    @apply flex items-end;
+  }
+
+  .frm_button_submit {
+    /* bel mij terug! */
+    @apply inline-flex items-center gap-2 px-5 py-3 text-sm bg-green-600 border-green-600 text-white rounded-full cursor-pointer font-display hover:scale-105 transition;
+  }
+
+  .frm_error {
+    @apply text-xs font-body text-left font-light text-white;
+  }
+}

@@ -1,0 +1,11 @@
+// Copyright: Joris W. van Rijn (2023). This code serves as a demonstrations of skills.
+// This code may not be used or distributed for any purpose.
+
+{
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "env": {
+    "node": true
+  }
+}

@@ -1,0 +1,18 @@
+// Copyright: Joris W. van Rijn (2023). This code serves as a demonstrations of skills.
+// This code may not be used or distributed for any purpose.
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-background font-body overflow-x-hidden;
+}
+
+[x-cloak] {
+  display: none !important;
+}
+
+a svg {
+  display: inline-block;
+}

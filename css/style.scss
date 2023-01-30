@@ -1,0 +1,18 @@
+// Copyright: Joris W. van Rijn (2023). This code serves as a demonstrations of skills.
+// This code may not be used or distributed for any purpose.
+
+// Load @font-face
+@import "./custom/fonts.scss";
+
+// Inject tailwind and case styles
+@import "tailwindcss/base";
+@import "./custom/base.css";
+
+// Custom styling
+@import "./custom/typo.css";
+
+// Components
+@import "./components/button.scss";
+@import "./components/forms.scss";
+@import "./components/menu.scss";
+@import "./components/pagination.scss";

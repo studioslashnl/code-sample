@@ -1,0 +1,20 @@
+// Copyright: Joris W. van Rijn (2023). This code serves as a demonstrations of skills.
+// This code may not be used or distributed for any purpose.
+
+.text-heading {
+  @apply font-bold font-display;
+  @apply leading-[3rem] text-[2.4rem];
+  @apply md:leading-[5.2rem] md:text-[4.825rem];
+  @apply lg:leading-[5.2rem] lg:text-[4.825rem];
+}
+
+.text-subheading {
+  @apply font-body;
+  @apply leading-relaxed;
+  @apply md:text-2xl md:leading-relaxed;
+  @apply lg:text-2xl lg:leading-relaxed;
+}
+
+.page-header {
+  @apply leading-none;
+}

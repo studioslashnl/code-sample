@@ -1,0 +1,6 @@
+// Copyright: Joris W. van Rijn (2023). This code serves as a demonstrations of skills.
+// This code may not be used or distributed for any purpose.
+
+.button {
+  @apply inline-flex items-center gap-2 px-4 py-2 md:px-5 md:py-3 text-sm !text-white bg-purple-400 rounded-full cursor-pointer font-display hover:scale-105 transition hover:!no-underline;
+}
